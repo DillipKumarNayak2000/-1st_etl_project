@@ -9,3 +9,6 @@ requirement.txt contains all the requirement modules files we need to import ins
 
 
 ETL_Raw_Processing_rolebased.py and ETL_Raw_Processing_with_scret.py is the 2nd step of the project execution after the data store in the s3 it will execute basically it will process the etl raw data and perform cleaning activity.
+
+
+ETL_Unified_Processing_with_secret.py and ETL_Unified_Processing_rolebased.py file is the 3rd or last layer of the project which will perform action on the unified data on the top of aws using glue and athena.
